@@ -1,5 +1,15 @@
 {
   "name": "parcel-issue-1621",
   "version": "1.0.0",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "build:hoist": "parcel build --experimental-scope-hoisting src/index.html"
+  },
+  "dependencies": {
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.9.7"
+  }
 }
